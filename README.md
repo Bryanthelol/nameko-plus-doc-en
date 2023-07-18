@@ -1,2 +1,2 @@
 # nameko-plus-doc-en
-nameko plus documentation (english)
+nameko plus documentation (English)
