@@ -51,7 +51,7 @@ theme:
 extra:
   alternate:
     - name: English
-      link: https://apiflask.com/
+      link: https://legendary-sopapillas-e2626d.netlify.app/
       lang: en
     - name: 简体中文
       link: https://doc.bearcatlog.com/
