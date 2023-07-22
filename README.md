@@ -2,11 +2,11 @@
 
 nameko plus documentation (English)
 
-## 文档地址
+## Dcoument
 
 TODO
 
-## command of deploying
+## Command of Deploying
 
 ```shell
 git add . && git commit -m 'update doc' && git push origin main
