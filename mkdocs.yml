@@ -24,7 +24,7 @@ repo_name: namekoplus
 copyright: Copyright &copy; 2023 Bryant He
 theme:
   name: material
-  language: zh
+  language: en
   # logo: assets/logo.png
   icon:
     logo: simple/materialdesign
@@ -40,22 +40,22 @@ theme:
       accent: indigo
       toggle:
         icon: material/lightbulb
-        name: 切至暗黑模式
+        name: Switch to dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
       primary: grey
       accent: blue
       toggle:
         icon: material/lightbulb-outline
-        name: 切至光亮模式
+        name: Switch to light mode
 extra:
   alternate:
-    - name: 简体中文
-      link: https://doc.bearcatlog.com/
-      lang: zh
     - name: English
       link: https://apiflask.com/
       lang: en
+    - name: 简体中文
+      link: https://doc.bearcatlog.com/
+      lang: zh
   social:
     - icon: material/github
       link: https://github.com/Bryanthelol
