@@ -1,0 +1,66 @@
+# yaml-language-server: $schema=https://squidfunk.github.io/mkdocs-material/schema.json
+
+site_name: Nameko-plus
+nav:
+- index.md
+- Quick Start.md
+- Test Driven Dev.md
+# - 项目文件结构.md
+# - 整体架构说明.md
+# - CICD:
+#   - CICD Intro.md
+#   - TEST Env.md
+#   - SIT Env.md
+#   - STAGING ENV.md
+#   - PROD ENV.md
+# - 深入 Nameko 内部:
+#   - 编写 Nameko 扩展.md
+#   - Nameko 源码解读.md
+# - 深入微服务架构:
+#   - 基于 Nameko 的高可用设计.md
+#   - 基于 Nameko 的分布式事务.md
+repo_url: https://github.com/Bryanthelol/namekoplus
+repo_name: namekoplus
+copyright: Copyright &copy; 2023 Bryant He
+theme:
+  name: material
+  language: zh
+  # logo: assets/logo.png
+  icon:
+    logo: simple/materialdesign
+    repo: simple/github
+  features:
+    - navigation.footer
+    - search.suggest
+    - search.highlight
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: deep orange
+      accent: indigo
+      toggle:
+        icon: material/lightbulb
+        name: 切至暗黑模式
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: grey
+      accent: blue
+      toggle:
+        icon: material/lightbulb-outline
+        name: 切至光亮模式
+extra:
+  alternate:
+    - name: 简体中文
+      link: https://doc.bearcatlog.com/
+      lang: zh
+    - name: English
+      link: https://apiflask.com/
+      lang: en
+  social:
+    - icon: material/github
+      link: https://github.com/Bryanthelol
+    - icon: material/twitter
+      link: https://twitter.com/beijisenlin
+plugins:
+  - search
+  - git-authors
