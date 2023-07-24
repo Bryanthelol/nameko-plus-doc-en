@@ -40,10 +40,20 @@ project_root_dir
 Opening the `test_service.py` file, we can see that there is already a test case inside:
 
 ```python
+
+import pytest
 from nameko.testing.services import worker_factory
 
 
-def test_example_service():
+@pytest.mark.parametrize(
+    'value, expected',
+    [
+        ('John Doe', 'Hello, John Doe!'),
+        ('', 'Hello, !'),
+        ('Bryant', 'Hello, Bryant!'),
+    ],
+)
+def test_example_service(value, expected):
     """
     Test example service.
     """
@@ -54,8 +64,8 @@ def test_example_service():
     service.remote.hello.side_effect = lambda name: "Hello, {}!".format(name)
 
     # test remote_hello business logic
-    assert service.remote_hello("Bryant") == "Hello, Bryant!"
-    service.remote.hello.assert_called_once_with("Bryant")
+    assert service.remote_hello(value) == expected
+    service.remote.hello.assert_called_once_with(value)
 
 ```
 
