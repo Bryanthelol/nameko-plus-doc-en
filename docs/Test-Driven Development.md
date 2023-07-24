@@ -97,11 +97,12 @@ After modifying the `test_service.py` file, we just need to run the `nameko test
 platform darwin -- Python 3.11.4, pytest-7.4.0, pluggy-1.2.0
 rootdir: /XXX/XXX/XXX/XXX
 plugins: nameko-3.0.0rc11, anyio-3.7.1
-collected 1 item
+collected 3 items
 
-example/test_service.py .                                                                                                                                                                                                          [100%]
+example/test_service.py ...                                                                                                                                                                                                        [100%]
 
-=========================================================================================================== 1 passed in 0.11s ============================================================================================================
+=========================================================================================================== 3 passed in 0.07s ============================================================================================================
+
 ```
 
 So far, based on the `rpc_demo` service in the `example` directory, we have completed the generation and execution of a unit test case.
