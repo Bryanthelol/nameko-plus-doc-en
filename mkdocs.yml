@@ -25,7 +25,8 @@ copyright: Copyright &copy; 2023 Bryant He
 theme:
   name: material
   language: en
-  # logo: assets/logo.png
+  logo: assets/IMG_0976_little.png
+  favicon: assets/IMG_0976_little.png
   icon:
     logo: simple/materialdesign
     repo: simple/github
