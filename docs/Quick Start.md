@@ -27,7 +27,7 @@ After running the above command, we will soon see the output indicating that Rab
 
 > The default username and password for the RabbitMQ management interface are "admin" and "admin".
 > 
-> If you wish to customize them, you can simply modify them in the RabbitMQ management interface later.
+> If you want to customize them, you can simply modify them in the RabbitMQ management interface later.
 > 
 > If you want to stop the RabbitMQ container later, you can use the command:
 > 
