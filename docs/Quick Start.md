@@ -17,7 +17,7 @@ python3 -m pip install namekoplus
 
 ## Start a RabbitMQ
 
-After installing Namekoplus, we can start a RabbitMQ container. This container will expose ports 5672 and 15672 (15672 is the management interface port).
+After installing namekoplus, we can start a RabbitMQ container that exposes ports 5672 and 15672 (15672 is the management interface port) with the following command:
 
 ```bash
 namekoplus start -m rabbitmq 
@@ -25,16 +25,12 @@ namekoplus start -m rabbitmq
 
 After running the above command, we will soon see the output indicating that RabbitMQ has started successfully.
 
-> The default username and password for the RabbitMQ management interface are `admin` and `admin`.
->
-> If you want to customize them, simply add the parameters:
->
-> ```
-> namekoplus start -m rabbitmq -u username -p password
-> ```
->
+> The default username and password for the RabbitMQ management interface are "admin" and "admin".
+> 
+> If you wish to customize them, you can simply modify them in the RabbitMQ management interface later.
+> 
 > If you want to stop the RabbitMQ container later, you can use the command:
->
+> 
 > ```
 > namekoplus stop -m rabbitmq
 > ```
